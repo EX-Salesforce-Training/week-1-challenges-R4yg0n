@@ -1,0 +1,17 @@
+/*Ryan Mattc*/
+
+
+		public class ChallengeThree {
+		Account newAccount = new Account();
+		    
+		public void SetAccount(String name, integer rev, String des ){
+			newAccount.name = name;
+			newAccount.annualrevenue = rev;
+			newAccount.description = des;
+		}
+		public Account GetAccount(){	
+		 System.debug(newAccount.name + ' ' + newAccount.annualrevenue + ' ' + newAccount.description);
+		 return newAccount;
+		}	
+			
+		}
